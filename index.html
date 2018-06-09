@@ -29,6 +29,10 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/buttons.js"></script>
+    <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+      <script src="js/modernizr.custom.js"></script>
+
 </head>
 
 <body>
@@ -65,11 +69,6 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="event_btn_inner">
-                        <button id="actualBtn">
-                            <i class="fa fa-calendar" aria-hidden="true"></i>Book an Event
-                        </button>
-                    </div>
                 </div>
                 <div class="col-md-4">
                     <div class="header_social">
@@ -104,7 +103,6 @@
                     </div>
                 </div>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="active">
@@ -123,9 +121,7 @@
                         </li>
                     </ul>
                 </div>
-                <!-- /.navbar-collapse -->
             </div>
-            <!-- /.container-fluid -->
         </nav>
     </header>
     <!--================End Header Area =================-->
@@ -141,8 +137,6 @@
                         <img src="img/home-slider/1Mussel Saffron Soup_preview.jpeg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
                             data-bgparallax="10" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
-
-                        <!-- LAYER NR. 1 -->
                         <div class="slider_text_box">
                             <div class="tp-caption bg_box" data-width="none" data-height="none" data-whitespace="nowrap" data-x="center" data-y="['350','350','300','250','0']"
                                 data-fontsize="['55']" data-lineheight="['60']" data-transform_idle="o:1;" data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;"
@@ -162,7 +156,7 @@
                                 data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;"
                                 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                                 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none"
-                                data-splitout="none" data-responsive_offset="on" data-elementdelay="0.05">Your Personal Chef
+                                data-splitout="none" data-responsive_offset="on" data-elementdelay="0.05">Mark Charles: Your Personal Chef
                             </div>
                             <div class="tp-caption third_text" data-x="center" data-y="center" data-voffset="['100']" data-Hoffset="['0']" data-fontsize="['24','24','24','24','16']"
                                 data-lineheight="['34','34','34','34','26']" data-width="none" data-height="none" data-transform_idle="o:1;"
@@ -177,7 +171,7 @@
                                 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
                                 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1200" data-splitin="none"
                                 data-splitout="none" data-responsive_offset="on" data-elementdelay="0.05">
-                                <a class="submit_btn_bg" href="#">Look Menu</a>
+                                <a class="submit_btn_bg" href="#">Book an Event</a>
                             </div>
                         </div>
                     </li>
@@ -198,7 +192,7 @@
                         <h3>Table Settings and Decor</h3>
                         <p>I can set a beautiful meal up anywhere. Dine like you're in a 5-star restaurant in your own home
                             or office!</p>
-                        <a class="readMoreBtn" href="settings.html">Read More</a>
+                        <a class="readMoreBtn" href="settings.html">See Photos</a>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
@@ -207,7 +201,7 @@
                         <h3>Breakfast</h3>
                         <p>Start your day off right with a delicious breakfast, or even better how about brunch? Whatever you
                             and your guests' appetites call for.</p>
-                        <a class="readMoreBtn" href="breakfast.html">Read More</a>
+                        <a class="readMoreBtn" href="breakfast.html">See Photos</a>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
@@ -216,7 +210,7 @@
                         <h3>Entrees</h3>
                         <p>Talk to me about what you want made specially. My menu is your imagination!</p>
                         <br></br>
-                        <a class="readMoreBtn" href="entrees.html">Read More</a>
+                        <a class="readMoreBtn" href="entrees.html">See Photos</a>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
@@ -225,7 +219,7 @@
                         <h3>Desserts!</h3>
                         <p>Delicious, delectible delights that will satisfy any sweet tooth.</p>
                         <br></br>
-                        <a class="readMoreBtn" href="desserts.html">Read More</a>
+                        <a class="readMoreBtn" href="desserts.html">See Photos</a>
                     </div>
                 </div>
             </div>
@@ -237,40 +231,11 @@
     <section class="booking_table_area">
         <div class="container">
             <div class="s_white_title">
-                <h3>Book a</h3>
+                <h3 class="red">Book a</h3>
                 <h2>Date</h2>
                 <p>Meeting your tastes, in a setting you choose.</p>
             </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="input-append date form_datetime">
-                        <input size="16" type="text" value="" readonly placeholder="Date">
-                        <span class="add-on">
-                            <i class="icon-th"></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="input-append date form_time">
-                        <input size="16" type="text" value="" readonly placeholder="Dining Time">
-                        <span class="add-on">
-                            <i class="icon-th"></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="party_size">
-                        <select class="selectpicker">
-                            <option>Party Size</option>
-                            <option>Party Size 2</option>
-                            <option>Party Size 3</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <button type="button" class="btn btn-default submit_btn">BOOK A DATE</button>
-                </div>
-            </div>
+            
         </div>
     </section>
     <!--================End Booking Date =================-->
@@ -389,12 +354,6 @@
     <script src="vendors/isotope/isotope.pkgd.min.js"></script>
     <script src="vendors/countdown/jquery.countdown.js"></script>
     <script src="vendors/js-calender/zabuto_calendar.min.js"></script>
-    <!--gmaps Js-->
-    <!--        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>-->
-    <!--        <script src="js/gmaps.min.js"></script>-->
-
-
-    <!--        <script src="js/video_player.js"></script>-->
     <script src="js/theme.js"></script>
 </body>
 

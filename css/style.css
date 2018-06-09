@@ -68,9 +68,9 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .s_white_title h3 {
-  font-size: 36px;
+  font-size: 50px;
   font-family: "Great Vibes", cursive;
-  color: #fff;
+  color: red;
 }
 
 .s_white_title h2 {
@@ -299,6 +299,19 @@ body, p, h1, h2, h3, h4, h5, h6 {
   top: 0;
   width: 100%;
   z-index: 8;
+}
+.name{
+  width: 80%;
+}
+.red{
+  color:red;
+}
+.emailBody{
+  text-align: center;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  line-height: 150px;
+  width: 80%;
 }
 .logo{
   padding-top:20px;
@@ -1411,7 +1424,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
 /* Our Chef area css
 ============================================================================================ */
 .our_chefs_area {
-  background: url(../img/gallery/galleria/Border_Deco_Frame_PNG_Gold_Clip_Art.png)  fixed center center;
   background-size:cover;
   /* background: #f7f7f7; */
   padding: 100px 0px;
