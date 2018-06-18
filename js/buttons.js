@@ -13,7 +13,6 @@ $(document).ready(function() {
   //Not working
 //   $(".input-append date form_datetime").datetimepicker({
 //     onSelect: function() { 
-//         alert("doubleweiner");
 //         var dateObject = $(this).datepicker('getDate'); 
 //         $(".btn btn-default submit_btn").click(function(dateObject){
 //             $(".dinnerDate").append("<input type=\"text\" name=\"date\" value=(dateObject)>");

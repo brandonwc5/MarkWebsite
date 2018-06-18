@@ -2754,14 +2754,14 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slider_text_box .bg_box {
   background: rgba(0, 0, 0, 0.8);
   height: 380px;
-  width: 920px;
+  width: 1005px;
   position: relative;
 }
 
 .slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slider_text_box .bg_box:before {
   content: "";
   border: 1px solid #b10400;
-  width: 900px;
+  width: 982px;
   height: 360px;
   position: absolute;
   left: 11px;
