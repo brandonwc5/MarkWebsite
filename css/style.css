@@ -897,6 +897,26 @@ body, p, h1, h2, h3, h4, h5, h6 {
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
 }
+.submit_btn_contact {
+  background: #b10400;
+  text-align: center;
+  width: 85%;
+  font-family: "Open Sans", sans-serif;
+  line-height: 28px;
+  display: inline-block;
+  font-size: 14px;
+  z-index: 2;
+  text-transform: uppercase;
+  font-weight: bold;
+  height: 40px;
+  position: relative;
+  letter-spacing: .42px;
+  text-transform: uppercase;
+  outline: none !important;
+  box-shadow: none !important;
+  border: none;
+  color: #fff;
+}
 #review{
   margin-top: 20px;
   border:2px solid red;
@@ -919,10 +939,12 @@ body, p, h1, h2, h3, h4, h5, h6 {
     padding-bottom: 1em;
     margin-left: 6em;
     font-family: "Good Vibes";
-    background: black;
     border: 1px solid red;
     height: 23px;
     width: 84%;
+}
+.fb{
+  font-size:1.5em;
 }
 /* End Event Button css
 ============================================================================================ */
