@@ -68,23 +68,25 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .s_white_title h3 {
-  font-size: 50px;
-  font-family: "Great Vibes", cursive;
-  color: red;
-}
-
-.s_white_title h2 {
-  font-size: 36px;
+  font-size: 42px;
   font-family: "Cantata One", serif;
   text-transform: uppercase;
   color: #fff;
   padding: 10px 0px 20px 0px;
 }
 
+.s_white_title h2 {
+  font-size: 36px;
+  font-family: "Great Vibes", cursive;
+  color: red;
+  padding-top:5px;
+  padding-bottom:20px
+}
+
 .s_white_title p {
   color: #fff;
-  font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-family: "Cantata One", serif;
   text-transform: uppercase;
 }
 
@@ -130,22 +132,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-.s_black_title {
-  text-align: center;
-}
-
-.s_black_title h3 {
-  font-size: 36px;
-  font-family: "Great Vibes", cursive;
-  color: #b10400;
-}
-
-.s_black_title h2 {
-  font-size: 36px;
-  font-family: "Cantata One", serif;
-  text-transform: uppercase;
-  color: #333333;
-}
 
 /* End Main title css
 ============================================================================================ */
@@ -832,6 +818,85 @@ body, p, h1, h2, h3, h4, h5, h6 {
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
 }
+.submit_btn_bg2 {
+  background: transparent;
+  text-align: center;
+  width: 16%;
+  font-family: "Open Sans", sans-serif;
+  line-height: 28px;
+  display: inline-block;
+  font-size: 14px;
+  z-index: 2;
+  text-transform: uppercase;
+  font-weight: bold;
+  height: 40px;
+  position: relative;
+  letter-spacing: .42px;
+  text-transform: uppercase;
+  outline: none !important;
+  box-shadow: none !important;
+  border: none;
+  color: #fff;
+}
+
+.submit_btn_bg2 i {
+  padding-right: 5px;
+}
+
+.submit_btn_bg2:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #b10400;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+
+.submit_btn_bg2:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid #b10400;
+  -webkit-transform: scale(1.2, 1.2);
+  -ms-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+  border-radius: 5px;
+}
+
+.submit_btn_bg2:hover {
+  color: #b10400;
+  background: transparent;
+}
+
+.submit_btn_bg2:hover:before {
+  opacity: 0;
+  -webkit-transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+}
+
+.submit_btn_bg2:hover:after {
+  opacity: 1;
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
 #review{
   margin-top: 20px;
   border:2px solid red;
@@ -864,8 +929,9 @@ body, p, h1, h2, h3, h4, h5, h6 {
   border: 1px solid #b10400;
   text-align: center;
   position: relative;
-  padding-bottom: 30px;
-  border-radius: 1%
+  padding: 0px 5px 0px 5px;
+  border-radius: 1%;
+  height: 375px;
 }
 
 .service_item img {
@@ -885,7 +951,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   font-family: "Cantata One", serif;
   color: #b10400;
   text-transform: uppercase;
-  padding: 90px 0px 10px 0;
+  padding: 85px 0px 10px 0;
 }
 
 .service_item p {
@@ -893,7 +959,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   line-height: 26px;
   font-family: "Open Sans", sans-serif;
   color: #666666;
-  padding: 15px 0px 25px 0;
+  padding: 15px 0px 21px 0;
 }
 
 /* End Service css
@@ -1417,24 +1483,73 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .booking_table_area.booking_area_white .form_area .form-group:last-child {
   margin-bottom: 0px;
 }
-
+.bar:before{
+  content: "";
+  margin-top: 5.0em;
+  margin-left: 5.9em;
+  border: 1px solid #b10400;
+  width: 85%;
+  height:20em;
+  position: absolute;
+  left: 11px;
+  top: 11px;
+}
+.bar{
+  height: 22em;
+  padding-top: 2em;
+  opacity: .8;
+  width: 87%;
+  background: black;
+  margin-top: -2em;
+  margin-left: 6em;
+}
 /* End Bookink Table css
 ============================================================================================ */
+.chefArea .blackTitle{
+  padding-bottom: 55px;
+}
+.blackTitle{
+  text-align: center;
+}
+.chefArea{
+  background-size:cover;
+  /* background: #f7f7f7; */
+  padding: 75px 0px;
+}
 
+.blackTitle h3 {
+  font-size: 36px;
+  font-family: "Great Vibes";
+  color: #b10400;
+}
+
+.blackTitle h2 {
+  font-size: 36px;
+  font-family: "Cantata One", serif;
+  text-transform: uppercase;
+  color: #333333;
+}
+.chefPic{
+  position: relative;
+  width: 300px;
+}
 /* Our Chef area css
 ============================================================================================ */
 .our_chefs_area {
   background-size:cover;
   /* background: #f7f7f7; */
-  padding: 100px 0px;
+  padding: 75px 0px;
 }
-
+.our_chefs_area .container1 {
+  width: 65%
+}
 .our_chefs_area .s_black_title {
   padding-bottom: 55px;
 }
 
 .chefs_slider_active .chef_item_inner .chef_img {
   position: relative;
+  width: 300px;
 }
 
 .chefs_slider_active .chef_item_inner .chef_img .chef_hover {
@@ -1483,6 +1598,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   text-align: center;
   background: #b10400;
   color: #fff;
+  width:197%;
   overflow: hidden;
   position: relative;
 }
@@ -1623,13 +1739,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
   transform: scale(1, 1);
 }
 
-.chefs_slider_active .owl-prev {
-  left: -55px;
-}
-
-.chefs_slider_active .owl-next {
-  right: -55px;
-}
 
 /* End Our Chef area css
 ============================================================================================ */
@@ -2754,7 +2863,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slider_text_box .bg_box {
   background: rgba(0, 0, 0, 0.8);
   height: 380px;
-  width: 1006px;
+  width: 1005px;
   position: relative;
 }
 
@@ -2813,13 +2922,13 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .f_w_title h4 {
   font-size: 18px;
   font-family: "Cantata One", serif;
-  color: #fff;
+  color: #b10400;
   text-transform: uppercase;
 }
 
 .footer_widget_area {
   background: #181818;
-  padding: 50px 0px 0px;
+  padding: 35px 0px 0px;
 }
 
 .about_widget p {
