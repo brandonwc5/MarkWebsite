@@ -913,7 +913,16 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 #aboutypc{
   padding-top:8px;
-  line-height: 28px;
+  line-height: 41px;
+}
+.instruction {
+    padding-bottom: 1em;
+    margin-left: 6em;
+    font-family: "Good Vibes";
+    background: black;
+    border: 1px solid red;
+    height: 23px;
+    width: 84%;
 }
 /* End Event Button css
 ============================================================================================ */
@@ -1824,6 +1833,10 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .review1{
   border-radius:50%;
   height: 35px;
+}
+.review2{
+  border-radius:50%;
+  height: 45px;
 }
 /* End About us area css
 ============================================================================================ */
