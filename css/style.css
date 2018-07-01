@@ -900,7 +900,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .submit_btn_contact {
   background: #b10400;
   text-align: center;
-  width: 85%;
+  width: 69%;
   font-family: "Open Sans", sans-serif;
   line-height: 28px;
   display: inline-block;
@@ -953,7 +953,7 @@ form input, form textarea {
     margin-bottom: 0.5em;
 }
 form textarea{
-  height:25em;
+  height:21em;
 }
 input, textarea {
     font-size: 0.8em;
