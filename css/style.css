@@ -946,6 +946,24 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .fb{
   font-size:1.5em;
 }
+#formview textarea {
+    height: 10.3em;
+}
+form input, form textarea {
+    margin-bottom: 0.5em;
+}
+form textarea{
+  height:25em;
+}
+input, textarea {
+    font-size: 0.8em;
+    font-family: 'proxima-nova-soft', sans-serif;
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 0.9em;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+}
 /* End Event Button css
 ============================================================================================ */
 /*---------------------------------------------------- */
