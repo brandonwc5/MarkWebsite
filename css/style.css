@@ -2897,10 +2897,13 @@ textarea {
     width: 1005px;
     position: relative;
   }
-  @media (max-width: 500px) {
+  /* @media (max-width: 500px) {
     .slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slider_text_box .bg_box {
-      width: 770px;
-    }
+      background: rgba(0, 0, 0, 0.8);
+      height: 380px;
+      width: 1005px;
+      position: relative;
+    } */
   .slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slider_text_box .bg_box:before {
     content: "";
     border: 1px solid #b10400;
