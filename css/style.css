@@ -2925,15 +2925,24 @@ textarea {
     color: #fff;
     font-family: "Cantata One", serif;
   }
+  
   .slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slider_text_box .second_text {
     color: #b10400;
     font-family: "Open Sans", sans-serif;
     font-family: "Great Vibes", cursive;
+    font-size:36px;
+  }
+  
+  @media(max-width:500px){
+    .slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slider_text_box .second_text {
+      font-size:27px;
+    }
   }
   .slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slider_text_box .third_text {
     font-family: "Cantata One", serif;
     color: #fff;
   }
+  
   .slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slider_text_box .fourth_text {
     font-family: "Cantata One", serif;
     color: #fff;
@@ -2959,6 +2968,7 @@ textarea {
       padding-top: 65px;
     }
   }
+  
   /* End Home Slider area css
 ============================================================================================ */
   /*---------------------------------------------------- */
