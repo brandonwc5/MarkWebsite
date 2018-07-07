@@ -1674,7 +1674,7 @@ textarea {
   }
   @media screen and (max-width: 500px) {
     .bar {
-      height: 38em;
+      height: 37em;
     padding-top: 2em;
     opacity: .8;
     width: 87%;
@@ -1701,7 +1701,7 @@ textarea {
       margin-left: .9em;
       border: 1px solid #b10400;
       width: 82%;
-      height: 36em;
+      height: 35em;
       position: absolute;
       left: 11px;
       top: 11px;
