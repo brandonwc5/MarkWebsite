@@ -1812,11 +1812,18 @@ textarea {
     position: relative;
   }
 
+  @media (max-width: 750px) {
+    .chefs_slider_active .chef_item_inner .chef_name {
+      width: 223%;
+    }
+  }
+  
   @media (max-width: 500px) {
     .chefs_slider_active .chef_item_inner .chef_name {
       width: 110%;
     }
   }
+
   .chefs_slider_active .chef_item_inner .chef_name .name_chef_text {
     transition: all 400ms linear 0s;
   }
