@@ -1021,7 +1021,11 @@ h6 {
     color: #fff;
   }
 }
-
+@media only screen and (max-width: 700px) {
+  .submit_btn_contact {
+    width: 31%;
+  }
+}
 @media only screen and (max-width: 500px) {
   .submit_btn_contact {
     background: #b10400;
@@ -1817,7 +1821,7 @@ textarea {
       width: 223%;
     }
   }
-  
+
   @media (max-width: 500px) {
     .chefs_slider_active .chef_item_inner .chef_name {
       width: 110%;
