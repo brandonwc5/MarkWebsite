@@ -1824,7 +1824,7 @@ textarea {
 
   @media (max-width: 500px) {
     .chefs_slider_active .chef_item_inner .chef_name {
-      width: 110%;
+      width: 125%;
     }
   }
 
