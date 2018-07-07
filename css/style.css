@@ -78,7 +78,6 @@ h6 {
 
 .s_white_title {
   text-align: center;
-  padding-right: 9%;
 }
 
 .s_white_title h3 {
@@ -1657,7 +1656,7 @@ textarea {
     height: 22em;
     padding-top: 2em;
     opacity: .8;
-    width: 87%;
+    width: 91%;
     background: black;
     margin-top: -2em;
     margin-left: 3.9em;
@@ -1702,7 +1701,7 @@ textarea {
     margin-top: 5.0em;
     margin-left: 3.9em;
     border: 1px solid #b10400;
-    width: 85%;
+    width: 89%;
     height: 20em;
     position: absolute;
     left: 11px;
@@ -1808,7 +1807,7 @@ textarea {
     text-align: center;
     background: #b10400;
     color: #fff;
-    width: 230%;
+    width: 185%;
     overflow: hidden;
     position: relative;
   }
