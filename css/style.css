@@ -1824,7 +1824,7 @@ textarea {
 
   @media (max-width: 500px) {
     .chefs_slider_active .chef_item_inner .chef_name {
-      width: 125%;
+      width: 131%;
     }
   }
 
@@ -1956,6 +1956,12 @@ textarea {
   }
   /* End Our Chef area css
 ============================================================================================ */
+
+/* Terms */
+.termsBody{
+  padding-top:10em;
+}
+
   /* About us area css
 ============================================================================================ */
   .about_us_content {
