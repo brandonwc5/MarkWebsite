@@ -78,6 +78,7 @@ h6 {
 
 .s_white_title {
   text-align: center;
+  padding-right: 9%;
 }
 
 .s_white_title h3 {
@@ -895,21 +896,22 @@ h6 {
   }
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 500px) {
   .submit_btn_bg2 {
     background: transparent;
     text-align: center;
-    width: 16%;
+    width: 48%;
     font-family: "Open Sans", sans-serif;
-    line-height: 28px;
+    line-height: 25px;
     display: inline-block;
-    font-size: 14px;
+    font-size: 15px;
     z-index: 2;
     text-transform: uppercase;
     font-weight: bold;
-    height: 88px;
+    height: 62px;
     position: relative;
     letter-spacing: .42px;
+    padding-top: .5em;
     text-transform: uppercase;
     outline: none !important;
     box-shadow: none !important;
@@ -1025,7 +1027,7 @@ h6 {
   .submit_btn_contact {
     background: #b10400;
     text-align: center;
-    width: 36%;
+    width: 75%;
     font-family: "Open Sans", sans-serif;
     line-height: 28px;
     display: inline-block;
@@ -1640,44 +1642,16 @@ textarea {
   .booking_table_area.booking_area_white .form_area .form-group:last-child {
     margin-bottom: 0px;
   }
-  
-  .bar:before {
+
+  .slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slider_text_box .bg_box:before {
     content: "";
-    margin-top: 5.0em;
-    margin-left: 5.9em;
     border: 1px solid #b10400;
-    width: 85%;
-    height: 20em;
+    width: 100%;
+    height: 360px;
     position: absolute;
     left: 11px;
     top: 11px;
   }
-
-  /* @media only screen and (max-width: 990px) {
-    .bar :before {
-      margin-top: 1.0em;
-      margin-left: 1.9em;
-      border: 1px solid #b10400;
-      width: 85%;
-      height: 10em;
-      position: absolute;
-      left: -11%px;
-      top: 9%;
-    }
-  }
-  
-  @media only screen and (max-width: 780px) {
-    .bar :before {
-      margin-top: 1.0em;
-      margin-left: 1.9em;
-      border: 1px solid #b10400;
-      width: 85%;
-      height: 10em;
-      position: absolute;
-      left: 11px;
-      top: 11px;
-    }
-  } */
   
   .bar {
     height: 22em;
@@ -1686,7 +1660,7 @@ textarea {
     width: 87%;
     background: black;
     margin-top: -2em;
-    margin-left: 6em;
+    margin-left: 3.9em;
   }
 
   @media screen and (max-width: 990px) {
@@ -1712,7 +1686,41 @@ textarea {
     margin-left: 1em;
     }
   }
-
+  @media screen and (max-width: 500px) {
+    .bar {
+      height: 38em;
+    padding-top: 2em;
+    opacity: .8;
+    width: 87%;
+    background: black;
+    margin-top: -2em;
+    margin-left: 1em;
+    }
+  }
+  .booking_table_area .bar:before {
+    content: "";
+    margin-top: 5.0em;
+    margin-left: 3.9em;
+    border: 1px solid #b10400;
+    width: 85%;
+    height: 20em;
+    position: absolute;
+    left: 11px;
+    top: 11px;
+  }
+  @media only screen and (max-width: 500px) {
+    .booking_table_area .bar:before {
+      content: "";
+      margin-top: 5.0em;
+      margin-left: .9em;
+      border: 1px solid #b10400;
+      width: 82%;
+      height: 36em;
+      position: absolute;
+      left: 11px;
+      top: 11px;
+    }
+  }
   /* End Bookink Table css
 ============================================================================================ */
   .chefArea .blackTitle {
@@ -1800,14 +1808,14 @@ textarea {
     text-align: center;
     background: #b10400;
     color: #fff;
-    width: 198%;
+    width: 230%;
     overflow: hidden;
     position: relative;
   }
 
   @media (max-width: 500px) {
     .chefs_slider_active .chef_item_inner .chef_name {
-      width: 105%;
+      width: 136%;
     }
   }
   .chefs_slider_active .chef_item_inner .chef_name .name_chef_text {
@@ -2894,7 +2902,7 @@ textarea {
   .slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slider_text_box .bg_box {
     background: rgba(0, 0, 0, 0.8);
     height: 380px;
-    width: 1005px;
+    width: 900px;
     position: relative;
   }
   /* @media (max-width: 500px) {
@@ -2907,7 +2915,7 @@ textarea {
   .slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slider_text_box .bg_box:before {
     content: "";
     border: 1px solid #b10400;
-    width: 982px;
+    width: 97%;
     height: 360px;
     position: absolute;
     left: 11px;
@@ -2926,6 +2934,11 @@ textarea {
     font-family: "Cantata One", serif;
     color: #fff;
   }
+  .slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slider_text_box .fourth_text {
+    font-family: "Cantata One", serif;
+    color: #fff;
+    padding-top:3.5em;
+  }
   .slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slider_text_box .btn_text .submit_btn_bg {
     width: 130px;
     border-radius: 0px;
@@ -2937,6 +2950,14 @@ textarea {
   }
   .slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slider_text_box .btn_text .submit_btn_bg:after {
     border-radius: 0px;
+  }
+  .tp-caption .btn_text {
+    padding-top: 17px;
+  }
+  @media (max-width: 500px) {
+    .tp-caption .btn_text {
+      padding-top: 65px;
+    }
   }
   /* End Home Slider area css
 ============================================================================================ */
@@ -3005,7 +3026,7 @@ textarea {
   }
   @media (max-width: 500px) {
   .contact_widget {
-    padding-left: 33%;
+    padding-left: 22%;
   }
   }
   .contact_widget ul {

@@ -72,7 +72,7 @@
   height: 0;
 }
 .owl-carousel .owl-stage-outer {
-  margin-left:35px;
+  margin-left:-5em;
   position: relative;
   width:310px;
   border:5px solid #b10400;
@@ -93,9 +93,20 @@
 }
 @media only screen and (max-width: 780px) {
   .owl-carousel .owl-stage-outer {
-    margin-left:-330px;
+    margin-left:-260px;
     position: relative;
     width:310px;
+    border:5px solid #b10400;
+    overflow: hidden;
+    /* fix for flashing background */
+    -webkit-transform: translate3d(440px, 0px, 0px);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .owl-carousel .owl-stage-outer {
+    margin-left:-415px;
+    position: relative;
+    width:290px;
     border:5px solid #b10400;
     overflow: hidden;
     /* fix for flashing background */
