@@ -1028,24 +1028,7 @@ h6 {
 }
 @media only screen and (max-width: 500px) {
   .submit_btn_contact {
-    background: #b10400;
-    text-align: center;
-    width: 57%;
-    font-family: "Open Sans", sans-serif;
-    line-height: 28px;
-    display: inline-block;
-    font-size: 14px;
-    z-index: 2;
-    text-transform: uppercase;
-    font-weight: bold;
-    height: 40px;
-    position: relative;
-    letter-spacing: .42px;
-    text-transform: uppercase;
-    outline: none !important;
-    box-shadow: none !important;
-    border: none;
-    color: #fff;
+    width: 73%;
   }
 }
 
