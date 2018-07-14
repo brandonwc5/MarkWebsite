@@ -83,34 +83,19 @@
 @media only screen and (max-width: 990px) {
   .owl-carousel .owl-stage-outer {
     margin-left:-150px;
-    position: relative;
     width:310px;
-    border:5px solid #b10400;
-    overflow: hidden;
-    /* fix for flashing background */
-    -webkit-transform: translate3d(440px, 0px, 0px);
   }
 }
 @media only screen and (max-width: 780px) {
   .owl-carousel .owl-stage-outer {
     margin-left:-260px;
-    position: relative;
     width:310px;
-    border:5px solid #b10400;
-    overflow: hidden;
-    /* fix for flashing background */
-    -webkit-transform: translate3d(440px, 0px, 0px);
   }
 }
 @media only screen and (max-width: 500px) {
   .owl-carousel .owl-stage-outer {
-    margin-left:-395px;
-    position: relative;
+    margin-left:-385px;
     width:290px;
-    border:5px solid #b10400;
-    overflow: hidden;
-    /* fix for flashing background */
-    -webkit-transform: translate3d(440px, 0px, 0px);
   }
 }
 .owl-carousel .owl-controls .owl-nav .owl-prev,
