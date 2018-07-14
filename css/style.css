@@ -986,7 +986,7 @@ h6 {
 .submit_btn_contact {
   background: #b10400;
   text-align: center;
-  width: 69%;
+  width: 100%;
   font-family: "Open Sans", sans-serif;
   line-height: 28px;
   display: inline-block;
@@ -1006,24 +1006,7 @@ h6 {
 
 @media only screen and (max-width: 990px) {
   .submit_btn_contact {
-    background: #b10400;
-    text-align: center;
     width: 25%;
-    font-family: "Open Sans", sans-serif;
-    line-height: 28px;
-    display: inline-block;
-    font-size: 14px;
-    z-index: 2;
-    text-transform: uppercase;
-    font-weight: bold;
-    height: 40px;
-    position: relative;
-    letter-spacing: .42px;
-    text-transform: uppercase;
-    outline: none !important;
-    box-shadow: none !important;
-    border: none;
-    color: #fff;
   }
 }
 @media only screen and (max-width: 700px) {
@@ -1258,12 +1241,12 @@ textarea {
     -ms-transform: scale(1, 1);
     transform: scale(1, 1);
   }
-  .feature_slider .owl-prev {
+  /* .feature_slider .owl-prev {
     left: -55px;
-  }
-  .feature_slider .owl-next {
+  } */
+  /* .feature_slider .owl-next {
     right: -55px;
-  }
+  } */
   .feature_item .feature_item_inner {
     position: relative;
     z-index: 3;
@@ -1750,9 +1733,9 @@ textarea {
     /* background: #f7f7f7; */
     padding: 75px 0px;
   }
-  .our_chefs_area .container1 {
+  /* .our_chefs_area .container1 {
     width: 65%
-  }
+  } */
   .our_chefs_area .s_black_title {
     padding-bottom: 55px;
   }
@@ -1770,6 +1753,12 @@ textarea {
     background: rgba(0, 0, 0, 0.75);
     opacity: 0;
     transition: all 400ms linear 0s;
+  }
+  .owl-stage{
+    width:100% !important;
+  }
+  .owl-item{
+    width:100% !important;
   }
   .chefs_slider_active .chef_item_inner .chef_img .chef_hover h4 {
     color: #fff;
@@ -1802,7 +1791,7 @@ textarea {
     text-align: center;
     background: #b10400;
     color: #fff;
-    width: 185%;
+    width: 100%;
     overflow: hidden;
     position: relative;
   }
@@ -1875,11 +1864,8 @@ textarea {
   }
   .chefs_slider_active .owl-prev,
   .chefs_slider_active .owl-next {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    position: relative;
+    top: 0%;
     z-index: 4;
     height: 0px;
     width: 0px;
@@ -1900,10 +1886,6 @@ textarea {
     height: 100%;
     z-index: -1;
     background: #b10400;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
     border-radius: 5px;
   }
   .chefs_slider_active .owl-prev:after,
@@ -1916,14 +1898,7 @@ textarea {
     height: 100%;
     z-index: -1;
     opacity: 0;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
     border: 1px solid #b10400;
-    -webkit-transform: scale(1.2, 1.2);
-    -ms-transform: scale(1.2, 1.2);
-    transform: scale(1.2, 1.2);
     border-radius: 5px;
   }
   .chefs_slider_active .owl-prev:hover,
@@ -1947,7 +1922,24 @@ textarea {
   }
   /* End Our Chef area css
 ============================================================================================ */
-
+.footerImg{
+  width:100%;
+}
+@media only screen and (max-width: 990px) {
+  .footerImg {
+    width: 25%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .footerImg {
+    width: 31%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .footerImg {
+    width: 71%;
+  }
+}
 /* Terms */
 .termsBody{
   padding-top: 12em;
@@ -2955,6 +2947,7 @@ textarea {
   @media(max-width:500px){
     .slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slider_text_box .second_text {
       font-size:27px;
+      color:#bef02d;
     }
   }
   .slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slider_text_box .third_text {

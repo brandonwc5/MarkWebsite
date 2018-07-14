@@ -182,9 +182,18 @@
         .quote {
             margin-left: 20px;
         }
-        .slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slider_text_box .bg_box {
+        /* .slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slider_text_box .bg_box {
             display: none;
-        }
+        } */
+        .slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slider_text_box .bg_box{
+            height: 22em;
+            padding-top: 2em;
+            opacity: .8;
+            width: 87%;
+            background: black;
+            margin-top: -2em;
+            margin-left: 3em;
+            }
         .slider_area .slider_inner .rev_slider .tp-revslider-mainul li .slotholder:before {
             content: "";
             background: rgba(0, 0, 0, .5);
