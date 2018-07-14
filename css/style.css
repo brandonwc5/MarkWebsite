@@ -986,7 +986,7 @@ h6 {
 .submit_btn_contact {
   background: #b10400;
   text-align: center;
-  width: 100%;
+  width: 80%;
   font-family: "Open Sans", sans-serif;
   line-height: 28px;
   display: inline-block;
@@ -1908,7 +1908,7 @@ textarea {
   /* End Our Chef area css
 ============================================================================================ */
 .footerImg{
-  width:100%;
+  width:80%;
 }
 @media only screen and (max-width: 990px) {
   .footerImg {
