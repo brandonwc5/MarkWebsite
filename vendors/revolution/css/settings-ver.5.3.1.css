@@ -309,7 +309,7 @@ website:   	http://www.themepunch.com
 .rev_slider object,
 .rev_slider audio,
 .rev_slider video {
-	max-width: none !important
+	max-width: 66% !important
 }
 
 .tp-element-background 	{	position:absolute; top:0px;left:0px; width:100%;height:100%;z-index:0;}

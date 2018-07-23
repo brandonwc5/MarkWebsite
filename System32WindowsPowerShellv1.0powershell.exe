@@ -1,0 +1,24 @@
+warning: CRLF will be replaced by LF in js/buttons.js.
+The file will have its original line endings in your working directory.
+[1mdiff --git a/js/buttons.js b/js/buttons.js[m
+[1mindex 845c0f9..0bef4cd 100644[m
+[1m--- a/js/buttons.js[m
+[1m+++ b/js/buttons.js[m
+[36m@@ -1,14 +1,14 @@[m
+ $(document).ready(function() {[m
+   $(".submit_btn_bg").click(function() {[m
+[31m-    window.open("mailto:markcharlesypc@gmail.com?subject=Reservation Request&body=Hi Mark! I would like to inquire about having my own YPC experience!"[m
+[32m+[m[32m    window.open("mailto:markcharlesypc@gmail.com?subject=Reservation Request&body=Hi Mark. I would like to inquire about having my own YPC experience."[m
+     );[m
+   });[m
+   $(".submit_btn_bg2").click(function() {[m
+[31m-    window.open("mailto:markcharlesypc@gmail.com?subject=Reservation Request&body=Hi Mark! I would like to inquire about having my own YPC experience!"[m
+[32m+[m[32m    window.open("mailto:markcharlesypc@gmail.com?subject=Reservation Request&body=Hi Mark. I would like to inquire about having my own YPC experience."[m
+     );[m
+   });[m
+   $(".headContact2").click(function() {[m
+[31m-    window.open("mailto:markcharlesypc@gmail.com?subject=Reservation Request&body=Hi Mark! I would like to inquire about having my own YPC experience!"[m
+[32m+[m[32m    window.open("mailto:markcharlesypc@gmail.com?subject=Reservation Request&body=Hi Mark. I would like to inquire about having my own YPC experience."[m
+     );[m
+   });[m
+   $("#submit").click(function(){[m
