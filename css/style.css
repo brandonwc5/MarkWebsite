@@ -1962,7 +1962,7 @@ textarea {
     font-family: "Cantata One", serif;
     font-size: 24px;
     color: #333333;
-    margin-bottom: -12px;
+    /* margin-bottom: -12px; */
   }
   .about_us_content .about_inner_item .about_left_content p {
     font-size: 14px;
