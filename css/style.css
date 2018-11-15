@@ -1033,6 +1033,12 @@ h6 {
   border: 2px solid red;
 }
 
+#review1 {
+  margin-top: 20px;
+  border: 2px solid red;
+  max-width: 82%;
+}
+
 #innerQuote {
   padding-top: 10px;
   padding-bottom: 15px;
