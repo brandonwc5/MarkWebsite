@@ -1020,14 +1020,28 @@ h6 {
   }
 }
 
+.people{
+  text-align: center;
+    padding-bottom: 4px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Sura', sans-serif;
+    border-bottom: 1px solid lightblue;
+}
 #review {
   margin-top: 20px;
   border: 2px solid red;
 }
 
+#review1 {
+  margin-top: 20px;
+  border: 2px solid red;
+  max-width: 82%;
+}
+
 #innerQuote {
   padding-top: 10px;
-  padding-bottom: 8px;
+  padding-bottom: 15px;
   padding-left: 10px;
   padding-right: 7px;
 }
@@ -1954,7 +1968,7 @@ textarea {
     font-family: "Cantata One", serif;
     font-size: 24px;
     color: #333333;
-    margin-bottom: -12px;
+    margin-bottom: 5px;
   }
   .about_us_content .about_inner_item .about_left_content p {
     font-size: 14px;
