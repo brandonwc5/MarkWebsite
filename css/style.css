@@ -1033,7 +1033,7 @@ h6 {
   border: 2px solid red;
 }
 
-#review1 {
+#review2 {
   margin-top: 20px;
   border: 2px solid red;
   max-width: 82%;
@@ -1125,7 +1125,9 @@ textarea {
   transform: translateX(-50%);
   text-align: center;
   top: -64px;
-  border-radius: 50%
+  border-radius: 50%;
+  padding: 1px;
+  border: 1px solid #b10400;
 }
 
 @media screen and (max-width: 990px) {
