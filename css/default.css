@@ -33,7 +33,8 @@ body {
     background: #f9f9f9;
     font-weight: 300;
     font-size: 15px;
-    color: #333;
+	color: #333;
+	background-color: #a1f72f12;
     overflow: scroll;
     overflow-x: hidden;
 }

@@ -2689,7 +2689,7 @@ textarea {
     transition: all 200ms linear;
   }
   .our_gallery_item img {
-    max-width: 100%;
+    width: 100%;
   }
   .our_gallery_item .our_gallery_hover {
     width: 100%;
