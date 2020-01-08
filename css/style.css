@@ -1130,6 +1130,22 @@ textarea {
   border: 1px solid #b10400;
 }
 
+
+@media screen and (max-width: 2000px) {
+  .service_item img {
+    display: block;
+    max-width: 40%;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    text-align: center;
+    top: -64px;
+    border-radius: 50%
+  }
+}
+
 @media screen and (max-width: 990px) {
   .service_item img {
     display: block;
